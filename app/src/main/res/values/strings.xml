@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SocketPhoneClient</string>
+    <string name="preference_server_ip">ServerIP</string>
+    <string name="preference_server_port">ServerPort</string>
+    <string name="response_unknown_host_exception">UnknownHostException: </string>
+    <string name="response_io_exception">IOException: </string>
+    <string name="connect">Connect to server and get radio</string>
+    <string name="ip">Server ip address</string>
+    <string name="port">Server port number</string>
+    <string name="clear">Clear</string>
+</resources>
