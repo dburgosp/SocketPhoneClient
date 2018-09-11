@@ -57,4 +57,16 @@ public class MainActivity extends Activity {
             }
         });
     }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString("text", mResponseTextView.getText().toString());
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        mResponseTextView.setText(savedInstanceState.getString("text"));
+    }
 }
